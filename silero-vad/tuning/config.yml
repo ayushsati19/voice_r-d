@@ -1,0 +1,17 @@
+jit_model_path: /home/justdial/change_2/voice_r/silero_vad.jit
+use_torchhub: False
+
+tune_8k: True
+train_dataset_path: /home/justdial/change_2/voice_r/dataset_dir/train.feather
+val_dataset_path: /home/justdial/change_2/voice_r/dataset_dir/val.feather
+model_save_path: /home/justdial/change_2/voice_r/silero_vad_tuned_8k.jit
+
+noise_loss: 1.0
+max_train_length_sec: 8
+aug_prob: 0.2
+
+learning_rate: 5e-4
+batch_size: 512
+num_workers: 8
+num_epochs: 20
+device: cuda

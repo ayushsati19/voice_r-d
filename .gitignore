@@ -14,8 +14,6 @@ env/
 # Dataset directories (can be large)
 dataset_dir/
 
-# Silero VAD cloned repo (external dependency)
-silero-vad/
 
 # Python cache
 __pycache__/
