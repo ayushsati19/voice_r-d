@@ -1,0 +1,42 @@
+# Virtual environments
+r_venv/
+venv/
+.venv/
+env/
+
+# Large model files
+*.jit
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# Dataset directories (can be large)
+dataset_dir/
+
+# Silero VAD cloned repo (external dependency)
+silero-vad/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
